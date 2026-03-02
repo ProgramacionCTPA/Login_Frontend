@@ -1,4 +1,4 @@
-const API = "http://localhost:3000";
+const API = "https://login-backend-gi6s.onrender.com";
 
 async function register() {
     const username = document.getElementById("username").value;
@@ -48,4 +48,5 @@ if(window.location.pathname.includes("menu.html")) {
     } else {
         document.getElementById("user").textContent = username;
     }
+
 }
